@@ -1,9 +1,16 @@
+import Download from "./Components/Download";
+import Feature from "./Components/Feature";
+import Header from "./Components/Header";
+import Landing from "./Components/Landing";
 
 function App() {
   return (
-    <div className="App">
-      <h1>React App</h1>
-    </div>
+    <>
+    <Header/>
+    <Landing/>
+    <Feature/>
+    <Download/>
+    </>
   );
 }
 
